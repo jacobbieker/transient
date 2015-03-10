@@ -1,0 +1,20 @@
+# astronomy related
+	* iraf
+	* sextractor
+	* montage
+	* gbtidl
+	* casa
+	* aips
+
+# setup for tcsh & bash
+# emacs
+# use neovim instead of regular vim
+
+
+ultimately this should be set up as a group of version controlled modules with
+something like chef or puppet so that the user could select which things they
+want to install, or swap-out by git-cloning from their own repositories in the
+case of customized pieces of software like editors or shells.
+
+some of the packages could take a long time to build, so perhaps a pre-install
+ncurses type of menu or scipt would be optimal
